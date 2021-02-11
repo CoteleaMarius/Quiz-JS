@@ -1,7 +1,0 @@
-function playGame(){
-
-};
-
-function showHighScore(){
-    
-}

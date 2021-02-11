@@ -1,0 +1,8 @@
+function playGame(){
+
+
+}
+
+function showHighScores(){
+    
+}

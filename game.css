@@ -16,7 +16,7 @@
 
 .choice-prefix{
     padding: 1.5rem 2.5rem;
-    background-color: darkorchid;
+    background-color: #56a5eb;
     color: white;
 }
 
@@ -25,9 +25,26 @@
 }
 
 .correct{
-    background-color: lightseagreen;
+    background-color: #28a746;
 }
 
 .incorrect{
-    background-color: darkred;
+    background-color: #d33646;
+}
+
+/* HUD section */
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text{
+    text-align: center;
 }

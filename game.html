@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/game.css">
     <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="game.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="flex-center flex-column" id="game">
-            <h2 id="question">Typical question about learning Js</h2>
+        <div id="game" class="flex-center flex-column">
+            <div id="hud">
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Question
+                    </p>
+                    <h1 class="hud-main-text" id="questionCounter"></h1>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">Score</p>
+                    <h1 class="hud-main-text" id="score">0</h1>
+                </div>
+            </div>
+            <h2 id="question">Typical question about learning JS</h2>
             <div class="choice-container">
                 <p class="choice-prefix">A</p>
-                <p class="choice-text" data-number="1">Varianta 1</p>
+                <p class="choice-text" data-number="1">Varante 1</p>
             </div>
             <div class="choice-container">
                 <p class="choice-prefix">B</p>
-                <p class="choice-text" data-number="1">Varianta 2</p>
+                <p class="choice-text" data-number="2">Varante 2</p>
             </div>
             <div class="choice-container">
                 <p class="choice-prefix">C</p>
-                <p class="choice-text" data-number="1">Varianta 3</p>
+                <p class="choice-text" data-number="3">Varante 3</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4">Varante 4</p>
             </div>
         </div>
     </div>
+    <script src="game.js"></script>
 </body>
-<script src="scripts/game.js"></script>
+
 </html>
