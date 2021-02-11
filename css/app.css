@@ -1,0 +1,67 @@
+:root{
+    background-color: crimson;
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    color: cyan;
+}
+
+h1, h2, h3, h4{
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 5.4rem;
+    color: darkolivegreen;
+    margin-bottom: 5rem;
+}
+
+h1 > span{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 4.2rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+/* Utilities */
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden{
+    display: none;
+}
+
+.text-center{
+    text-align: center;
+}
